@@ -34,3 +34,29 @@ console.log(`Độ chênh lệch chiều cao của 2 người là ${heigthDiffer
 
 BMI = Number(BMI);
 console.log(`Giá trị BMI sau khi tính toán là: ${BMI}`);
+
+//d
+heigthDifference = Number(heigthDifference);
+if (heigthDifference >= 10){
+    console.log("Chiều cao hợp lí")
+}
+
+BMI = Number(BMI);
+if (BMI < 18.5) {
+    console.log("Gầy")
+}
+else if (18 < BMI < 24.9 ) {
+    console.log("Bình thường")
+}
+else if(25 < BMI < 29.9) {
+    console.log("Tăng cân")
+}
+else if(30 < BMI < 34.9) {
+    console.log("Béo phì độ 1")
+}
+else if(35 < BMI < 39.9) {
+    console.log("Béo phì độ 2")
+}
+else if(BMI >= 40) {
+    console.log("Béo phì độ 3")
+}
